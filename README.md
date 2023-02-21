@@ -5,6 +5,7 @@ Optimising train, inference and throughput of expensive ML models
 ## Methods
 - Pruning
 - Quantisation
+- Teacher-student
 ***
 
 ## Articles
