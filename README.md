@@ -6,6 +6,7 @@ Optimising train, inference and throughput of expensive ML models
 - Pruning
 - Quantisation
 - Teacher-student
+- [ONNX Runtime](https://onnxruntime.ai/) was designed with a focus on performance and scalability in order to support heavy workloads in high-scale production scenarios. 
 ***
 
 ## Articles
