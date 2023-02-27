@@ -1,11 +1,11 @@
 # Cheap-ML-models
-Optimising train, inference and throughput of expensive ML models
+*A list of methods/resources/links on how to optimise training, inference and throughput of expensive ML models.*
 ***
 
 ## Methods
-- Pruning
-- Quantisation
-- Teacher-student
+- **Pruning** allows you to remove unnecessary weights by zeroing them out of your model network. 
+- **Quantisation** allows you to reduce the computation complexity of a model by reducing the precision of the weight’s representation. 
+- **Distillation/Teacher-student** will force a smaller neural network to learn the objectives of a larger neural network.
 - [ONNX Runtime](https://onnxruntime.ai/) was designed with a focus on performance and scalability in order to support heavy workloads in high-scale production scenarios. 
 ***
 
