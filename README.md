@@ -2,11 +2,23 @@
 *A list of methods/resources/links on how to optimise training, inference and throughput of expensive ML models.*
 ***
 
+## Motivation
+- This is needed in resource-constrained devices such as smartphones or embedded systems.
+***
+
 ## Methods
 - **Pruning** allows you to remove unnecessary weights by zeroing them out of your model network. 
 - **Quantisation** allows you to reduce the computation complexity of a model by reducing the precision of the weight’s representation. 
 - **Distillation/Teacher-student** will force a smaller neural network to learn the objectives of a larger neural network.
 - [ONNX Runtime](https://onnxruntime.ai/) was designed with a focus on performance and scalability in order to support heavy workloads in high-scale production scenarios. 
+***
+
+## Quantisation
+There are several different types of quantisation methods:
+  - **Fixed-point quantisation**, in which each parameter or computation is represented by a fixed number of bits. 
+  - **Floating-point quantisation**, in which some parameters or computations are represented with higher precision than others.
+  - **Dynamic quantisation** which quantises the weights of the model during the training process, this is useful for deep learning models where the weights are updated frequently.
+  - Quantisation can also be applied on the activation values during the inference process, this is called **post-training quantisation**.
 ***
 
 ## Articles
