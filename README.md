@@ -27,3 +27,7 @@ There are several different types of quantisation methods:
 - [2022 | FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
 - [2023 | A Survey on Efficient Training of Transformers](https://arxiv.org/abs/2302.01107)
 ***
+
+## Blogs
+- [Some Techniques To Make Your PyTorch Models Train (Much) Faster](https://sebastianraschka.com/blog/2023/pytorch-faster.html)
+***
