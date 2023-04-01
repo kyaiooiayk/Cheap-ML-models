@@ -3,6 +3,8 @@
 ***
 
 ## Motivation
+- Using only scale to improve performance means that resource consumption also grows. This motivates research into efficient methods.
+- This project is an attempt to list methods and findings.
 - This is needed in resource-constrained devices such as smartphones or embedded systems.
 ***
 
@@ -20,13 +22,13 @@
   - **Floating-point quantisation**, in which some parameters or computations are represented with higher precision than others.
   - **Dynamic quantisation** which quantises the weights of the model during the training process, this is useful for deep learning models where the weights are updated frequently.
   - Quantisation can also be applied on the activation values during the inference process, this is called **post-training quantisation**.
-
 ***
 
 ## Articles
 - [2020 | Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732)
 - [2022 | Cramming: Training a Language Model on a Single GPU in One Day](https://arxiv.org/abs/2212.14034) | In this paper, the researchers trained a masked language model / encoder-style LLM (here: BERT) for 24h on a single GPU. For comparison, the original 2018 BERT paper trained it on 16 TPUs for four days. An interesting insight is that while smaller models have higher throughput, smaller models also learn less efficiently. Thus, larger models do not require more training time to reach a specific predictive performance threshold.
 - [2022 | FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+- [2022 | Efficient Methods for Natural Language Processing: A Survey](https://arxiv.org/abs/2209.00099?utm_source=substack&utm_medium=email)
 - [2023 | A Survey on Efficient Training of Transformers](https://arxiv.org/abs/2302.01107)
 ***
 
