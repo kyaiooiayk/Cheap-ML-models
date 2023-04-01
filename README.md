@@ -14,11 +14,13 @@
 ***
 
 ## Quantisation
-There are several different types of quantisation methods:
+- Quantisation does not have to be applied consistently to all parts of the model. Forward and backward passes can be done in half-precision, while parameters are stored and updated in full precision.
+- There are several different types of quantisation methods:
   - **Fixed-point quantisation**, in which each parameter or computation is represented by a fixed number of bits. 
   - **Floating-point quantisation**, in which some parameters or computations are represented with higher precision than others.
   - **Dynamic quantisation** which quantises the weights of the model during the training process, this is useful for deep learning models where the weights are updated frequently.
   - Quantisation can also be applied on the activation values during the inference process, this is called **post-training quantisation**.
+
 ***
 
 ## Articles
