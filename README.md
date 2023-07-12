@@ -34,4 +34,5 @@
 
 ## Blogs
 - [Some Techniques To Make Your PyTorch Models Train (Much) Faster](https://sebastianraschka.com/blog/2023/pytorch-faster.html)
+- [Intriguing Properties of Quantization at Scale](https://txt.cohere.com/intriguing-properties-of-quantization-at-scale/)
 ***
