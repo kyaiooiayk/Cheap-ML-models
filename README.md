@@ -16,7 +16,7 @@
 ***
 
 ## Quantisation
-- Quantisation does not have to be applied consistently to all parts of the model. Forward and backward passes can be done in half-precision, while parameters are stored and updated in full precision.
+- Quantisation does not have to be applied consistently to all parts of the model. Forward and backward passes can be done in half-precision, while parameters are stored and updated in full precision. In NNs, the amount of time taken to process inputs and to generate outputs (latency) is the sum of two components: data movement and arithmetic operations. Quantization helps improve upon both these facets – using a lower precision helps transfer data in the GPU faster and also enables leveraging specialized hardware in modern GPUs that reduces the time taken for data movement and the matrix multiplications respectively. However, quantizing LLMs has proven to be significantly more challenging as they grow in size.
 - There are several different types of quantisation methods:
   - **Fixed-point quantisation**, in which each parameter or computation is represented by a fixed number of bits. 
   - **Floating-point quantisation**, in which some parameters or computations are represented with higher precision than others.
