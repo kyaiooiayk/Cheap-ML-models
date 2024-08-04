@@ -40,4 +40,5 @@
 - [Some Techniques To Make Your PyTorch Models Train (Much) Faster](https://sebastianraschka.com/blog/2023/pytorch-faster.html)
 - [Intriguing Properties of Quantization at Scale](https://txt.cohere.com/intriguing-properties-of-quantization-at-scale/)
 - [Distributed Llama 2 on CPUs](https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d)
+- [A visual guide to quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization?utm_source=substack&utm_medium=email)
 ***
